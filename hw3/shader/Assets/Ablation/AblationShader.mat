@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AblationShader
+  m_Shader: {fileID: 4800000, guid: fbb373f77c68b164299ae238f70f39cc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 62fc3af096915f64283f884cc47c1ba4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 2c7637ae85a62ba4994d1d49a95200dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 3330249979fb6274fab93bd423a43be5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Direction: 1
+    - _DistanceEffect: 0.757
+    - _EdgeLength: 0.052
+    - _MaxBorderX: 0.5
+    - _MaxBorderY: 0.5
+    - _MaxBorderZ: 0.5
+    - _MinBorderX: -0.5
+    - _MinBorderY: -0.5
+    - _MinBorderZ: -0.5
+    - _Threshold: 0
+    - _TotalTime: 7.23
+    m_Colors: []
